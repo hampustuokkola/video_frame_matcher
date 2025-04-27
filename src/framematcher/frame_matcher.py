@@ -57,7 +57,7 @@ class VideoFrameMatcher:
         video_extensions = (
             '*.mp4', '*.avi', '*.mov', '*.mkv', '*.flv', '*.wmv',
             '*.webm', '*.m4v', '*.mpg', '*.mpeg', '*.3gp', '*.3g2',
-            '*.mxf', '*.roq', '*.nsv', '*.f4v', '*.f4p', '*.f4a', '*.f4b'
+            '*.mxf', '*.roq', '*.nsv', '*.f4v', '*.f4p', '*.f4a', '*.f4b', '*.ogm'
         )
         video_files = []
         for ext in video_extensions:
